@@ -6,7 +6,7 @@ body {
   letter-spacing: 1px;
   word-break: break-all;
   color: #333;
-  background: rgb(243, 199, 118);
+  background-color: #fab86e;
 }
 a {
   text-decoration: none;
@@ -162,6 +162,7 @@ footer {
   }
   header .logo {
     padding: 5px 0 0 5px;
+    font-size: 24px;
   }
   .footer_logo {
     width: 40%;

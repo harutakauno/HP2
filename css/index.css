@@ -248,7 +248,6 @@
 }
 .news_date::after {
   content: "";
-  position: absolute;
   background: url(../img\ HP2/arrow.png) no-repeat;
   width: 19%;
   height: 55%;
@@ -282,8 +281,13 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .top_img {
+    width: 300px;
+    font-size: 32px;
+    left: 30px;
+  }
   .top_img img {
-    width: 70%;
+    width: 40%;
   }
   .service_item {
     width: 100%;

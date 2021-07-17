@@ -50,17 +50,7 @@
   transition: 0.4s;
   margin-bottom: 10px;
 }
-.news_date::after {
-  content: "";
-  position: absolute;
-  background: url(../img\ HP2/arrow.png) no-repeat;
-  background-size: contain;
-  width: 19%;
-  height: 55%;
-  display: block;
-  right: 13px;
-  top: 50%;
-}
+
 @media screen and (max-width: 1024px) {
 }
 @media screen and (max-width: 480px) {
