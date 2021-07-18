@@ -256,8 +256,16 @@
   top: 50%;
 }
 @media screen and (max-width: 1024px) {
+  .top_img {
+    width: 800px;
+    left: 150px;
+  }
 }
 @media screen and (max-width: 768px) {
+  .top_img {
+    width: 700px;
+    left: 34px;
+  }
   .service_item {
     display: block;
     width: 80%;
