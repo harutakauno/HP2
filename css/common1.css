@@ -158,6 +158,9 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
+  body .logo {
+    left: 30px;
+  }
   .inner {
     max-width: 95%;
   }
@@ -211,14 +214,15 @@ footer {
     display: none;
     top: 0;
     left: 0;
-    z-index: 3;
-    background: #000;
+    z-index: 101;
+    background: rgba(255, 232, 197, 0.69);
   }
   header .navbar ul {
     display: block;
     text-align: center;
     float: none;
     top: 20%;
+    background-color: #fff;
   }
   header .navbar ul li {
     width: 40%;
