@@ -147,6 +147,10 @@ footer {
   font-size: 15px;
 }
 @media screen and (max-width: 1024px) {
+  .top_img {
+    width: 800px;
+    left: 150px;
+  }
 }
 @media screen and (max-width: 768px) {
   .inner {
@@ -177,7 +181,7 @@ footer {
     right: 10px;
     top: 10px;
     position: absolute;
-    border-top: solid 4px #aaaaaa;
+    border-top: solid 4px bisque;
     cursor: pointer;
     z-index: 100;
   }
@@ -192,6 +196,7 @@ footer {
     right: 0;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    background-color: bisque;
   }
   header .drawer:before {
     top: 6px;
