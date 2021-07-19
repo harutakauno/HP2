@@ -221,7 +221,7 @@ footer {
     display: block;
     text-align: center;
     float: none;
-    top: 20%;
+    top: 40px;
     background-color: #fff;
   }
   header .navbar ul li {
